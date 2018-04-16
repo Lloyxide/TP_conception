@@ -24,19 +24,7 @@ iostream
 vector
 -
 
-/etudiants/tlarose/Documents/genie_logiciel/genie_logiciel/TP_conception/gps/src/Route.cpp
-Route.hpp
-/etudiants/tlarose/Documents/genie_logiciel/genie_logiciel/TP_conception/gps/src/Route.hpp
-
 /etudiants/tlarose/Documents/genie_logiciel/genie_logiciel/TP_conception/gps/src/Route.hpp
 string
--
-
-/etudiants/tlarose/Documents/genie_logiciel/genie_logiciel/TP_conception/gps/src/gps.cpp
-Chemin.hpp
-/etudiants/tlarose/Documents/genie_logiciel/genie_logiciel/TP_conception/gps/src/Chemin.hpp
-exception
--
-fstream
 -
 

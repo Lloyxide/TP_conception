@@ -16,7 +16,7 @@ class Chemin_test_ : public Chemin {
 
         void importerCsv_0() {
             Chemin_test_ c;
-            std::ifstream infile("../tests/test1.csv");
+            std::ifstream infile("test1.csv");
             c.importerCsv(infile);
             CHECK_EQUAL("toto", c.routes_.back().villeA_);
         }
@@ -26,10 +26,10 @@ class Chemin_test_ : public Chemin {
                 Chemin_test_ c;
                 std::ostringstream oss;
                 c.exporterDot(oss, "toto", "tata");
-                //FAIL("failed to throw exception");
+                FAIL("failed to throw exception");
             }
             catch (const std::string & msg) {
-	      //CHECK_EQUAL("Chemin::calculerPlusCourt : routes_.empty()", msg);
+                CHECK_EQUAL("Chemin::calculerPlusCourt : routes_.empty()", msg);
             }
         }
 

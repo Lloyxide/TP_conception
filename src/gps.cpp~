@@ -21,9 +21,7 @@ int main(int argc, char ** argv) {
 
     try {
 
-      Chemin c;
-      std::ifstream file(argv[1]);
-      c.importerCsv(file);
+        // TODO importer le fichier CSV
 
         // TODO exporter le fichier dot correspondant
 
